@@ -38,7 +38,7 @@ function removeContact(contactId) {
 
     if (contactIndex === -1) {
       console.log(
-        colors.log(`Contact with ID ${contactId} was not found.`.red)
+        console.log(`Contact with ID ${contactId} was not found.`.red)
       );
       return;
     }
